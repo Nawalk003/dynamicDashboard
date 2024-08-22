@@ -1,0 +1,39 @@
+{
+    "categories": {
+        "CSPM_Executive_Dashboard": {
+            "widgets": [
+                {
+                    "id": 121,
+                    "title": "Cloud Accounts",
+                    "data": {
+                        "Connected": 12,
+                        "Not Connected": 8
+                    }
+                },
+                {
+                    "id":122,
+                    "title": "Cloud Account Risk Assessment",
+                    "data": {
+                        "Failed": 12,
+                        "Warning": 13
+                    }
+                }
+            ]
+    },
+        "CWPP Dashboard": {
+            "widgets": [
+                {
+                    "id": 221,
+                    "title": "5 Namespace Alerts",
+                    "data": {}
+                },
+                {
+                    "id": 222,
+                    "title": "Workload Alerts",
+                    "data": {}
+                }
+            ]
+        },
+        "Registry Scan":{}
+    }
+}
