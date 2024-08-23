@@ -8,7 +8,7 @@ const Dashboard = () => {
 
   return (
     <>
-      <div className='container-fluid px-3'>
+      <div className='container-fluid p-3 bg-info-subtle text-info-emphasis'>
         <div className="row justify-content-between">
           <div className="col-5">
             <span className="fw-bold">CNAPP Dashboard</span>
@@ -24,14 +24,10 @@ const Dashboard = () => {
           </div>
         </div>
 
-        <div className="container">
-          <span>{data.categories.length}</span>
-          {data.categories.map(cat => {
-            <span key={cat.name}>{cat.name}</span>
-          })}
-          <div className='row'>
-            <div className='col-2'> Widget</div>
-          </div>
+        <div className="container-fluid px-1">
+          {data.categories.map((category) =>
+            <Category key={category.name} category={category} />
+          )}
         </div>
       </div>
     </>
