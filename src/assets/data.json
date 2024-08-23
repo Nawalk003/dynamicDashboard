@@ -1,6 +1,7 @@
 {
-    "categories": {
-        "CSPM_Executive_Dashboard": {
+    "categories": [
+        {
+            "name" : "CSPM_Executive_Dashboard",
             "widgets": [
                 {
                     "id": 121,
@@ -19,8 +20,9 @@
                     }
                 }
             ]
-    },
-        "CWPP Dashboard": {
+        },
+        {
+            "name" : "CWPP Dashboard",
             "widgets": [
                 {
                     "id": 221,
@@ -33,7 +35,6 @@
                     "data": {}
                 }
             ]
-        },
-        "Registry Scan":{}
-    }
+        }
+    ]
 }
